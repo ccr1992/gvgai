@@ -1,4 +1,4 @@
-package controllers.singlePlayer.sampleRandom;
+package controllers.singlePlayer.cristobal;
 
 import java.awt.Graphics2D;
 import java.util.ArrayList;
@@ -9,6 +9,7 @@ import core.game.StateObservation;
 import core.player.AbstractPlayer;
 import ontology.Types;
 import tools.ElapsedCpuTimer;
+import controllers.singlePlayer.cristobal.ExtraccionCaracteristicas;
 
 /**
  * Created with IntelliJ IDEA.
@@ -98,6 +99,14 @@ public class Agent extends AbstractPlayer {
             //System.out.println(elapsedTimerIteration.elapsedMillis() + " --> " + acumTimeTaken + " (" + remaining + ")");
             avgTimeTaken  = acumTimeTaken/numIters;
             remaining = elapsedTimer.remainingTimeMillis();
+        }
+        ExtraccionCaracteristicas.convertir(stCopy);
+        System.out.println(stCopy.getAvatarPosition());
+        try{
+          Thread.sleep(500);
+        }
+        catch(InterruptedException e){
+            System.out.println("thread 2 interrupted");
         }
 
         return action;
