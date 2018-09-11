@@ -29,12 +29,13 @@ public class Agent extends AbstractPlayer {
      * Observation grid.
      */
     protected ArrayList<Observation> grid[][];
+    protected Boolean novelty[][];
 
     /**
      * block size
      */
     protected int block_size;
-
+    private boolean debug;
 
     /**
      * Public constructor with state observation and time due.
@@ -43,8 +44,11 @@ public class Agent extends AbstractPlayer {
      */
     public Agent(StateObservation so, ElapsedCpuTimer elapsedTimer)
     {
+        debug = true;
         randomGenerator = new Random();
         grid = so.getObservationGrid();
+        //Añadimos una matriz de nº casillas * nº de categorías de personajes (Averiguar si están limitadas)
+        novelty = new Boolean[grid.length*grid[0].length][20];
         block_size = so.getBlockSize();
     }
 
@@ -58,19 +62,19 @@ public class Agent extends AbstractPlayer {
      */
     public Types.ACTIONS act(StateObservation stateObs, ElapsedCpuTimer elapsedTimer) {
 
-        ArrayList<Observation>[] npcPositions = stateObs.getNPCPositions();
-        ArrayList<Observation>[] fixedPositions = stateObs.getImmovablePositions();
-        ArrayList<Observation>[] movingPositions = stateObs.getMovablePositions();
-        ArrayList<Observation>[] resourcesPositions = stateObs.getResourcesPositions();
-        ArrayList<Observation>[] portalPositions = stateObs.getPortalsPositions();
-        grid = stateObs.getObservationGrid();
-
-        /*printDebug(npcPositions,"npc");
-        printDebug(fixedPositions,"fix");
-        printDebug(movingPositions,"mov");
-        printDebug(resourcesPositions,"res");
-        printDebug(portalPositions,"por");
-        System.out.println();               */
+        // ArrayList<Observation>[] npcPositions = stateObs.getNPCPositions();
+        // ArrayList<Observation>[] fixedPositions = stateObs.getImmovablePositions();
+        // ArrayList<Observation>[] movingPositions = stateObs.getMovablePositions();
+        // ArrayList<Observation>[] resourcesPositions = stateObs.getResourcesPositions();
+        // ArrayList<Observation>[] portalPositions = stateObs.getPortalsPositions();
+        // grid = stateObs.getObservationGrid();
+        //
+        // printDebug(npcPositions,"npc");
+        // printDebug(fixedPositions,"fix");
+        // printDebug(movingPositions,"mov");
+        // printDebug(resourcesPositions,"res");
+        // printDebug(portalPositions,"por");
+        // System.out.println();
 
         Types.ACTIONS action = null;
         StateObservation stCopy = stateObs.copy();
@@ -100,13 +104,15 @@ public class Agent extends AbstractPlayer {
             avgTimeTaken  = acumTimeTaken/numIters;
             remaining = elapsedTimer.remainingTimeMillis();
         }
-        ExtraccionCaracteristicas.convertir(stCopy);
-        System.out.println(stCopy.getAvatarPosition());
-        try{
-          Thread.sleep(500);
-        }
-        catch(InterruptedException e){
-            System.out.println("thread 2 interrupted");
+        System.out.println( ExtraccionCaracteristicas.comprobarNovedad(stCopy,novelty));
+
+        if (debug){
+          try{
+            Thread.sleep(500);
+          }
+          catch(InterruptedException e){
+              System.out.println("thread 2 interrupted");
+          }
         }
 
         return action;
@@ -123,7 +129,9 @@ public class Agent extends AbstractPlayer {
         if(positions != null){
             System.out.print(str + ":" + positions.length + "(");
             for (int i = 0; i < positions.length; i++) {
-                System.out.print(positions[i].size() + ",");
+                System.out.print(positions[i].size() + "   ,");
+                //System.out.print(positions[0].get(0).position.x + "   ,");
+                //System.out.print(positions[0].get(0).position.y + ",   ");
             }
             System.out.print("); ");
         }else System.out.print(str + ": 0; ");
@@ -139,14 +147,21 @@ public class Agent extends AbstractPlayer {
         int half_block = (int) (block_size*0.5);
         for(int j = 0; j < grid[0].length; ++j)
         {
+          // /System.out.println("");
             for(int i = 0; i < grid.length; ++i)
             {
                 if(grid[i][j].size() > 0)
                 {
                     Observation firstObs = grid[i][j].get(0); //grid[i][j].size()-1
                     //Three interesting options:
+                    //System.out.print("-> " + i + " , " + j + " : " );
+                    int z= 0;
+                    for (z=0; z < grid[i][j].size(); z++){
+                      //System.out.print(grid[i][j].get(z).itype +"");
+                    }
+
                     int print = firstObs.category; //firstObs.itype; //firstObs.obsID;
-                    g.drawString(print + "", i*block_size+half_block,j*block_size+half_block);
+                    g.drawString("" + "", i*block_size+half_block,j*block_size+half_block);
                 }
             }
         }
