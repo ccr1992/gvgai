@@ -3,7 +3,7 @@ package controllers.singlePlayer.cristobal;
 import java.awt.Graphics2D;
 import java.util.ArrayList;
 import java.util.Random;
-
+import java.util.LinkedList;
 import core.game.Observation;
 import core.game.StateObservation;
 import core.player.AbstractPlayer;
@@ -30,6 +30,7 @@ public class Agent extends AbstractPlayer {
      */
     protected ArrayList<Observation> grid[][];
     protected Boolean novelty[][];
+    protected int orden[];
 
     /**
      * block size
@@ -50,6 +51,8 @@ public class Agent extends AbstractPlayer {
         //Añadimos una matriz de nº casillas * nº de categorías de personajes (Averiguar si están limitadas)
         novelty = new Boolean[grid.length*grid[0].length][20];
         block_size = so.getBlockSize();
+        orden = new int[so.getAvailableActions().size()];
+        initializeOrden(orden);
     }
 
 
@@ -85,18 +88,55 @@ public class Agent extends AbstractPlayer {
         int numIters = 0;
 
         int remainingLimit = 5;
-        while(remaining > 2*avgTimeTaken && remaining > remainingLimit)
+        int index;
+        int nodos =0;
+        LinkedList<StateObservation> queueState = new LinkedList<StateObservation>();
+        LinkedList<Integer> queueMoves = new LinkedList<Integer>();
+        queueState.add(stCopy);
+        queueMoves.add(-1);
+        int currentMove;
+        double bestScore = Double.NEGATIVE_INFINITY;
+        int bestMove=0;
+        novelty = new Boolean[grid.length*grid[0].length][20];
+        while(remaining > 2*avgTimeTaken && remaining > remainingLimit && queueState.size() != 0)
+        //while(bestMove<100)
         {
             ElapsedCpuTimer elapsedTimerIteration = new ElapsedCpuTimer();
             ArrayList<Types.ACTIONS> actions = stateObs.getAvailableActions();
-            int index = randomGenerator.nextInt(actions.size());
-            action = actions.get(index);
+            index = randomGenerator.nextInt(actions.size());
+            //System.out.println("----------------------"+actions.size());
+            shuffleArray(orden);
+            stCopy= queueState.poll();
+            currentMove = queueMoves.poll();
+            //Sacar a una clase search
+            for (int i: orden){
+              action = actions.get(i);
+              stCopy.advance(action);
+              nodos++;
+              System.out.println(currentMove == -1 ? i : currentMove);
+              if(!stCopy.isGameOver() && ExtraccionCaracteristicas.comprobarNovedad(stCopy,novelty))
+              {
+                  queueState.add(stCopy);
+                  queueMoves.add(currentMove == -1 ? i : currentMove);
+                  if (stCopy.getGameScore() > bestScore){
+                    bestScore = stCopy.getGameScore();
+                    bestMove = currentMove == -1 ? i : currentMove;
+                    System.out.println("Actualizando bestMove  " +bestMove);
+                    System.out.println("Actualizando bestScore  " +bestScore);
+                  }
+                  //System.out.println(stCopy.getGameScore());
 
-            stCopy.advance(action);
+              }
+
+            }
+            action = actions.get(bestMove);
+
+            /*
             if(stCopy.isGameOver())
             {
                 stCopy = stateObs.copy();
             }
+            */
 
             numIters++;
             acumTimeTaken += (elapsedTimerIteration.elapsedMillis()) ;
@@ -104,17 +144,17 @@ public class Agent extends AbstractPlayer {
             avgTimeTaken  = acumTimeTaken/numIters;
             remaining = elapsedTimer.remainingTimeMillis();
         }
-        System.out.println( ExtraccionCaracteristicas.comprobarNovedad(stCopy,novelty));
+        //System.out.println( ExtraccionCaracteristicas.comprobarNovedad(stCopy,novelty));
 
-        if (debug){
+      /*  if (debug){
           try{
-            Thread.sleep(500);
+            Thread.sleep(1000);
           }
           catch(InterruptedException e){
               System.out.println("thread 2 interrupted");
           }
         }
-
+*/
         return action;
     }
 
@@ -165,5 +205,27 @@ public class Agent extends AbstractPlayer {
                 }
             }
         }
+    }
+
+    private static void shuffleArray(int[] array)
+    {
+        int index;
+        Random random = new Random();
+        for (int i = array.length - 1; i > 0; i--)
+        {
+            index = random.nextInt(i + 1);
+            if (index != i)
+            {
+                array[index] ^= array[i];
+                array[i] ^= array[index];
+                array[index] ^= array[i];
+            }
+        }
+    }
+    private static void initializeOrden(int[] array){
+        for (int i = array.length - 1; i > 0; i--){
+          array[i]=i;
+        }
+
     }
 }
