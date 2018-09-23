@@ -81,7 +81,7 @@ public class Agent extends AbstractPlayer {
 
         Types.ACTIONS action = null;
         StateObservation stCopy = stateObs.copy();
-
+        StateObservation stCopySim;
         double avgTimeTaken = 0;
         double acumTimeTaken = 0;
         long remaining = elapsedTimer.remainingTimeMillis();
@@ -107,28 +107,38 @@ public class Agent extends AbstractPlayer {
             //System.out.println("----------------------"+actions.size());
             shuffleArray(orden);
             stCopy= queueState.poll();
+            imprimirMiPosicion(stCopy);
             currentMove = queueMoves.poll();
             //Sacar a una clase search
             for (int i: orden){
               action = actions.get(i);
-              stCopy.advance(action);
+              System.out.println("       Ejecutando acción " + i);
+              stCopySim = stCopy.copy();
+              stCopySim.advance(action);
+                System.out.print("       ");
+                imprimirMiPosicion(stCopySim);
+              //imprimirMiPosicion(stCopy);
               nodos++;
-              System.out.println(currentMove == -1 ? i : currentMove);
-              if(!stCopy.isGameOver() && ExtraccionCaracteristicas.comprobarNovedad(stCopy,novelty))
+              //System.out.println(currentMove == -1 ? i : currentMove);
+              if(!stCopySim.isGameOver() && ExtraccionCaracteristicas.comprobarNovedad(stCopySim,novelty))
               {
-                  queueState.add(stCopy);
+                  System.out.println("Acción encolada ");
+                  queueState.add(stCopySim);
                   queueMoves.add(currentMove == -1 ? i : currentMove);
-                  if (stCopy.getGameScore() > bestScore){
-                    bestScore = stCopy.getGameScore();
+                  if (stCopySim.getGameScore() > bestScore){
+                    bestScore = stCopySim.getGameScore();
                     bestMove = currentMove == -1 ? i : currentMove;
-                    System.out.println("Actualizando bestMove  " +bestMove);
-                    System.out.println("Actualizando bestScore  " +bestScore);
+                    //System.out.println("Actualizando bestMove  " +bestMove);
+                    //System.out.println("Actualizando bestScore  " +bestScore);
+
                   }
                   //System.out.println(stCopy.getGameScore());
 
               }
 
             }
+
+
             action = actions.get(bestMove);
 
             /*
@@ -144,18 +154,23 @@ public class Agent extends AbstractPlayer {
             avgTimeTaken  = acumTimeTaken/numIters;
             remaining = elapsedTimer.remainingTimeMillis();
         }
+        System.out.println("------------número nodos  " +nodos);
         //System.out.println( ExtraccionCaracteristicas.comprobarNovedad(stCopy,novelty));
 
-      /*  if (debug){
-          try{
-            Thread.sleep(1000);
-          }
-          catch(InterruptedException e){
-              System.out.println("thread 2 interrupted");
-          }
-        }
-*/
+       // if (debug){
+       //    try{
+       //      Thread.sleep(1000);
+       //    }
+       //    catch(InterruptedException e){
+       //        System.out.println("thread 2 interrupted");
+       //    }
+       //  }
+
         return action;
+    }
+    private void imprimirMiPosicion(StateObservation s){
+
+      System.out.println(s.getAvatarPosition().x + "   " +s.getAvatarPosition().y );
     }
 
     /**
