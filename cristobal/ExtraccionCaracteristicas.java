@@ -13,21 +13,22 @@ public static boolean comprobarNovedad(StateObservation so , Boolean[][] nov){
   boolean novedad = false;
   ArrayList<Observation> grid[][];
   grid = so.getObservationGrid();
-  for(int j = 0; j < grid[0].length; ++j)
+  int ancho= grid.length;
+  for(int j = 0; j < grid[0].length; j++)
   {
-    for(int i = 0; i < grid.length; ++i)
+    for(int i = 0; i < ancho; i++)
     {
        if(grid[i][j].size() > 0)
        {
            for (int z=0; z < grid[i][j].size(); z++){
              int type =  grid[i][j].get(z).category;
-             
+
               // if (  true != null)
               //   System.out.println("Java no es una mierda");
-             if (nov[i*j][type] == null || nov[i*j][type] == false ){
+             if (nov[i+ancho*j][type] == null || nov[i+ancho*j][type] == false ){
                novedad = true;
              }
-             nov[i*j][type] = true;
+             nov[i+ancho*j][type] = true;
            }
 
 
@@ -36,6 +37,29 @@ public static boolean comprobarNovedad(StateObservation so , Boolean[][] nov){
   }
   return novedad;
  }
+ public static void pintarTodo(StateObservation so){
+   ArrayList<Observation> grid[][];
+   grid = so.getObservationGrid();
+   for(int j = 0; j < grid[0].length; j++)
+   {
+     for(int i = 0; i < grid.length; i++)
+     {
+        if(grid[i][j].size() > 0)
+        {
+            System.out.println("Casilla "+ i +"  "+ j +" :");
+            for (int z=0; z < grid[i][j].size(); z++){
+              int type =  grid[i][j].get(z).category;
+
+              System.out.println("      "+ type);
+
+            }
+
+
+        }
+     }
+   }
+ }
+
 
 
 

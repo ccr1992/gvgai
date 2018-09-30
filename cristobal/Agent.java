@@ -38,6 +38,7 @@ public class Agent extends AbstractPlayer {
     protected int block_size;
     private boolean debug;
 
+
     /**
      * Public constructor with state observation and time due.
      * @param so state observation of the current game.
@@ -53,6 +54,7 @@ public class Agent extends AbstractPlayer {
         block_size = so.getBlockSize();
         orden = new int[so.getAvailableActions().size()];
         initializeOrden(orden);
+
     }
 
 
@@ -64,7 +66,9 @@ public class Agent extends AbstractPlayer {
      * @return An action for the current state
      */
     public Types.ACTIONS act(StateObservation stateObs, ElapsedCpuTimer elapsedTimer) {
-
+        if (debug){
+          System.out.println("actuando");
+        }
         // ArrayList<Observation>[] npcPositions = stateObs.getNPCPositions();
         // ArrayList<Observation>[] fixedPositions = stateObs.getImmovablePositions();
         // ArrayList<Observation>[] movingPositions = stateObs.getMovablePositions();
@@ -94,51 +98,74 @@ public class Agent extends AbstractPlayer {
         LinkedList<Integer> queueMoves = new LinkedList<Integer>();
         queueState.add(stCopy);
         queueMoves.add(-1);
+        ArrayList<Types.ACTIONS> actions;
+
+
         int currentMove;
         double bestScore = Double.NEGATIVE_INFINITY;
         int bestMove=0;
+        //ExtraccionCaracteristicas.pintarTodo(stCopy);
+        System.out.println("#################### " + queueState.size());
         novelty = new Boolean[grid.length*grid[0].length][20];
+
         while(remaining > 2*avgTimeTaken && remaining > remainingLimit && queueState.size() != 0)
         //while(bestMove<100)
         {
             ElapsedCpuTimer elapsedTimerIteration = new ElapsedCpuTimer();
-            ArrayList<Types.ACTIONS> actions = stateObs.getAvailableActions();
+            actions = stateObs.getAvailableActions();  // ¿El número de acciones puede cambiar?
+            if (numIters == 0){
+              primerVistazo(queueState, queueMoves, actions);
+            }
             index = randomGenerator.nextInt(actions.size());
             //System.out.println("----------------------"+actions.size());
-            shuffleArray(orden);
+            //if (!debug)
+              shuffleArray(orden);
             stCopy= queueState.poll();
-            imprimirMiPosicion(stCopy);
+            if (debug)
+              imprimirMiPosicion(stCopy);
             currentMove = queueMoves.poll();
             //Sacar a una clase search
             for (int i: orden){
               action = actions.get(i);
-              System.out.println("       Ejecutando acción " + i);
               stCopySim = stCopy.copy();
               stCopySim.advance(action);
+
+              if (debug){
+                System.out.println("       Ejecutando acción " + i);
                 System.out.print("       ");
                 imprimirMiPosicion(stCopySim);
-              //imprimirMiPosicion(stCopy);
+              }
               nodos++;
               //System.out.println(currentMove == -1 ? i : currentMove);
-              if(!stCopySim.isGameOver() && ExtraccionCaracteristicas.comprobarNovedad(stCopySim,novelty))
+              // if (stCopySim.isGameOver())
+              //   System.out.println("SE HA PERDIDO EL JUEGO");
+              Boolean novedad = ExtraccionCaracteristicas.comprobarNovedad(stCopySim,novelty);
+              // if (!novedad){
+              //   System.out.println("     No supera el criterio de novedad----");
+              // }
+              if(!stCopySim.isGameOver() && novedad)
               {
-                  System.out.println("Acción encolada ");
+
+                  // System.out.println("Acción encolada ");
                   queueState.add(stCopySim);
                   queueMoves.add(currentMove == -1 ? i : currentMove);
                   if (stCopySim.getGameScore() > bestScore){
                     bestScore = stCopySim.getGameScore();
                     bestMove = currentMove == -1 ? i : currentMove;
-                    //System.out.println("Actualizando bestMove  " +bestMove);
-                    //System.out.println("Actualizando bestScore  " +bestScore);
+                    if (debug){
+                      System.out.println("Actualizando bestMove  " +bestMove);
+                      System.out.println("Actualizando bestScore  " +bestScore);
+                    }
+
 
                   }
-                  //System.out.println(stCopy.getGameScore());
+                  if(debug){
+                    System.out.println(stCopySim.getGameScore());
+                  }
 
               }
 
             }
-
-
             action = actions.get(bestMove);
 
             /*
@@ -170,7 +197,44 @@ public class Agent extends AbstractPlayer {
     }
     private void imprimirMiPosicion(StateObservation s){
 
-      System.out.println(s.getAvatarPosition().x + "   " +s.getAvatarPosition().y );
+      System.out.println(s.getAvatarPosition().x/block_size + "   " +s.getAvatarPosition().y/block_size );
+    }
+
+    private void primerVistazo(LinkedList<StateObservation> queueState , LinkedList<Integer> queueMoves, ArrayList<Types.ACTIONS> actions){
+
+      int minContMuertes = 10;
+      int contMuertes;
+      StateObservation stCopySim = null;
+      StateObservation stCopy = queueState.poll();
+
+      Types.ACTIONS action;
+      queueMoves.poll();
+      for (int i: orden){
+        contMuertes = 0;
+        action = actions.get(i);
+        for (int cont=0 ; cont < 5 ; cont++){
+          stCopySim = stCopy.copy();
+          stCopySim.advance(action);
+          if(stCopySim.isGameOver())
+            contMuertes++;
+        }
+         System.out.println("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" +contMuertes);
+        if (contMuertes == minContMuertes){
+          queueState.add(stCopySim);
+          queueMoves.add(i);
+        }
+        if (contMuertes < minContMuertes){
+          // if (debug){
+          //   System.out.println("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx")
+          // }
+          queueState.clear();
+          queueMoves.clear();
+          minContMuertes = contMuertes;
+          queueState.add(stCopySim);
+          queueMoves.add(i);
+        }
+
+      }
     }
 
     /**
