@@ -46,7 +46,7 @@ public class Agent extends AbstractPlayer {
      */
     public Agent(StateObservation so, ElapsedCpuTimer elapsedTimer)
     {
-        debug = true;
+        debug = false;
         randomGenerator = new Random();
         grid = so.getObservationGrid();
         //Añadimos una matriz de nº casillas * nº de categorías de personajes (Averiguar si están limitadas)
@@ -96,14 +96,18 @@ public class Agent extends AbstractPlayer {
         int nodos =0;
         LinkedList<StateObservation> queueState = new LinkedList<StateObservation>();
         LinkedList<Integer> queueMoves = new LinkedList<Integer>();
+        LinkedList<Integer> queueNivel = new LinkedList<Integer>();
         queueState.add(stCopy);
         queueMoves.add(-1);
+        queueNivel.add(0);
         ArrayList<Types.ACTIONS> actions;
 
 
         int currentMove;
+        int currentLevel;
         double bestScore = Double.NEGATIVE_INFINITY;
         int bestMove=0;
+        double scoreActualWithDescount;
         //ExtraccionCaracteristicas.pintarTodo(stCopy);
         System.out.println("#################### " + queueState.size());
         novelty = new Boolean[grid.length*grid[0].length][20];
@@ -114,7 +118,7 @@ public class Agent extends AbstractPlayer {
             ElapsedCpuTimer elapsedTimerIteration = new ElapsedCpuTimer();
             actions = stateObs.getAvailableActions();  // ¿El número de acciones puede cambiar?
             if (numIters == 0){
-              primerVistazo(queueState, queueMoves, actions);
+              primerVistazo(queueState, queueMoves, queueNivel,  actions);
             }
             index = randomGenerator.nextInt(actions.size());
             //System.out.println("----------------------"+actions.size());
@@ -124,6 +128,7 @@ public class Agent extends AbstractPlayer {
             if (debug)
               imprimirMiPosicion(stCopy);
             currentMove = queueMoves.poll();
+            currentLevel = queueNivel.poll();
             //Sacar a una clase search
             for (int i: orden){
               action = actions.get(i);
@@ -149,8 +154,10 @@ public class Agent extends AbstractPlayer {
                   // System.out.println("Acción encolada ");
                   queueState.add(stCopySim);
                   queueMoves.add(currentMove == -1 ? i : currentMove);
-                  if (stCopySim.getGameScore() > bestScore){
-                    bestScore = stCopySim.getGameScore();
+                  queueNivel.add(currentLevel +1);
+                  scoreActualWithDescount  = stCopySim.getGameScore()*(1/Math.pow(1.01,currentLevel));
+                  if (scoreActualWithDescount > bestScore){
+                    bestScore = scoreActualWithDescount;
                     bestMove = currentMove == -1 ? i : currentMove;
                     if (debug){
                       System.out.println("Actualizando bestMove  " +bestMove);
@@ -200,7 +207,8 @@ public class Agent extends AbstractPlayer {
       System.out.println(s.getAvatarPosition().x/block_size + "   " +s.getAvatarPosition().y/block_size );
     }
 
-    private void primerVistazo(LinkedList<StateObservation> queueState , LinkedList<Integer> queueMoves, ArrayList<Types.ACTIONS> actions){
+    private void primerVistazo(LinkedList<StateObservation> queueState , LinkedList<Integer> queueMoves,
+     LinkedList<Integer> queueNivel, ArrayList<Types.ACTIONS> actions){
 
       int minContMuertes = 10;
       int contMuertes;
@@ -209,6 +217,7 @@ public class Agent extends AbstractPlayer {
 
       Types.ACTIONS action;
       queueMoves.poll();
+      queueNivel.poll();
       for (int i: orden){
         contMuertes = 0;
         action = actions.get(i);
@@ -222,6 +231,7 @@ public class Agent extends AbstractPlayer {
         if (contMuertes == minContMuertes){
           queueState.add(stCopySim);
           queueMoves.add(i);
+          queueNivel.add(1);
         }
         if (contMuertes < minContMuertes){
           // if (debug){
@@ -229,9 +239,11 @@ public class Agent extends AbstractPlayer {
           // }
           queueState.clear();
           queueMoves.clear();
+          queueNivel.clear();
           minContMuertes = contMuertes;
           queueState.add(stCopySim);
           queueMoves.add(i);
+          queueNivel.add(1);
         }
 
       }
