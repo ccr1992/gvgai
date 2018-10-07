@@ -85,7 +85,7 @@ public class Agent extends AbstractPlayer {
 
         Types.ACTIONS action = null;
         StateObservation stCopy = stateObs.copy();
-        StateObservation stCopySim;
+        Tuple stCopySim;
         double avgTimeTaken = 0;
         double acumTimeTaken = 0;
         long remaining = elapsedTimer.remainingTimeMillis();
@@ -94,19 +94,21 @@ public class Agent extends AbstractPlayer {
         int remainingLimit = 5;
         int index;
         int nodos =0;
-        LinkedList<StateObservation> queueState = new LinkedList<StateObservation>();
-        LinkedList<Integer> queueMoves = new LinkedList<Integer>();
-        LinkedList<Integer> queueNivel = new LinkedList<Integer>();
-        queueState.add(stCopy);
-        queueMoves.add(-1);
-        queueNivel.add(0);
+        // LinkedList<StateObservation> queueState = new LinkedList<StateObservation>();
+        // LinkedList<Integer> queueMoves = new LinkedList<Integer>();
+        // LinkedList<Integer> queueNivel = new LinkedList<Integer>();
+        // queueState.add(stCopy);
+        // queueMoves.add(-1);
+        // queueNivel.add(0);
+        LinkedList<Tuple> queueState = new LinkedList<Tuple>();
+        queueState.add(new Tuple(stCopy,action,0,-1,0));
         ArrayList<Types.ACTIONS> actions;
 
 
         int currentMove;
         int currentLevel;
         double bestScore = Double.NEGATIVE_INFINITY;
-        int bestMove=0;
+        Types.ACTIONS bestMove= stateObs.getAvailableActions().get(0);
         double scoreActualWithDescount;
         //ExtraccionCaracteristicas.pintarTodo(stCopy);
         System.out.println("#################### " + queueState.size());
@@ -118,62 +120,65 @@ public class Agent extends AbstractPlayer {
             ElapsedCpuTimer elapsedTimerIteration = new ElapsedCpuTimer();
             actions = stateObs.getAvailableActions();  // ¿El número de acciones puede cambiar?
             if (numIters == 0){
-              primerVistazo(queueState, queueMoves, queueNivel,  actions);
+              primerVistazo(queueState, actions);
             }
             index = randomGenerator.nextInt(actions.size());
             //System.out.println("----------------------"+actions.size());
             //if (!debug)
               shuffleArray(orden);
-            stCopy= queueState.poll();
+            Tuple tupla = queueState.poll();
+            // stCopy= queueState.poll();
+            //stCopy = tupla.getSo();
             if (debug)
               imprimirMiPosicion(stCopy);
-            currentMove = queueMoves.poll();
-            currentLevel = queueNivel.poll();
+            //currentMove = tupla.getMove() ; // queueMoves.poll();
+            //currentLevel = tupla.getLevel(); //queueNivel.poll();
             //Sacar a una clase search
             for (int i: orden){
-              action = actions.get(i);
-              stCopySim = stCopy.copy();
-              stCopySim.advance(action);
-
+              // action = actions.get(i);
+              // stCopySim = stCopy.copy();
+              // stCopySim.advance(action);
+              stCopySim = new Tuple(tupla, actions.get(i));
               if (debug){
                 System.out.println("       Ejecutando acción " + i);
                 System.out.print("       ");
-                imprimirMiPosicion(stCopySim);
+                imprimirMiPosicion(stCopySim.getSo());
               }
               nodos++;
               //System.out.println(currentMove == -1 ? i : currentMove);
               // if (stCopySim.isGameOver())
               //   System.out.println("SE HA PERDIDO EL JUEGO");
-              Boolean novedad = ExtraccionCaracteristicas.comprobarNovedad(stCopySim,novelty);
+              Boolean novedad = ExtraccionCaracteristicas.comprobarNovedad(stCopySim.getSo(),novelty);
               // if (!novedad){
               //   System.out.println("     No supera el criterio de novedad----");
               // }
-              if(!stCopySim.isGameOver() && novedad)
+              if(!stCopySim.getSo().isGameOver() && novedad)
               {
 
                   // System.out.println("Acción encolada ");
+
                   queueState.add(stCopySim);
-                  queueMoves.add(currentMove == -1 ? i : currentMove);
-                  queueNivel.add(currentLevel +1);
-                  scoreActualWithDescount  = stCopySim.getGameScore()*(1/Math.pow(1.01,currentLevel));
+                  //scoreActualWithDescount  = stCopySim.getSo().getGameScore()*(1/Math.pow(1.01,currentLevel));
+                  scoreActualWithDescount  = stCopySim.getScore();
                   if (scoreActualWithDescount > bestScore){
                     bestScore = scoreActualWithDescount;
-                    bestMove = currentMove == -1 ? i : currentMove;
+                    // bestMove = stCopySim.getMove() == -1 ? i : currentMove;
+                    bestMove = stCopySim.getMove();
                     if (debug){
-                      System.out.println("Actualizando bestMove  " +bestMove);
+                      // System.out.println("Actualizando bestMove  " +bestMove);
                       System.out.println("Actualizando bestScore  " +bestScore);
                     }
 
 
                   }
                   if(debug){
-                    System.out.println(stCopySim.getGameScore());
+                    System.out.println(stCopySim.getSo().getGameScore());
                   }
 
               }
 
             }
-            action = actions.get(bestMove);
+            action = bestMove;
 
             /*
             if(stCopy.isGameOver())
@@ -207,43 +212,45 @@ public class Agent extends AbstractPlayer {
       System.out.println(s.getAvatarPosition().x/block_size + "   " +s.getAvatarPosition().y/block_size );
     }
 
-    private void primerVistazo(LinkedList<StateObservation> queueState , LinkedList<Integer> queueMoves,
-     LinkedList<Integer> queueNivel, ArrayList<Types.ACTIONS> actions){
+    // private void primerVistazo(LinkedList<T<> queueState , LinkedList<Integer> queueMoves,
+    //  LinkedList<Integer> queueNivel, ArrayList<Types.ACTIONS> actions){
+    private void primerVistazo(LinkedList<Tuple> queueState, ArrayList<Types.ACTIONS> actions){
 
       int minContMuertes = 10;
       int contMuertes;
-      StateObservation stCopySim = null;
-      StateObservation stCopy = queueState.poll();
+      Tuple stCopySim = null;
+      Tuple stCopy = queueState.poll();
 
       Types.ACTIONS action;
-      queueMoves.poll();
-      queueNivel.poll();
+      // queueMoves.poll();
+      // queueNivel.poll();
       for (int i: orden){
         contMuertes = 0;
         action = actions.get(i);
         for (int cont=0 ; cont < 5 ; cont++){
-          stCopySim = stCopy.copy();
-          stCopySim.advance(action);
-          if(stCopySim.isGameOver())
+          // stCopySim = stCopy.copy();
+          // stCopySim.advance(action);
+          // if(stCopySim.isGameOver())
+          stCopySim = new Tuple (stCopy, action);
+          if (stCopySim.getSo().isGameOver())
             contMuertes++;
         }
          System.out.println("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" +contMuertes);
         if (contMuertes == minContMuertes){
+          stCopy.setMove(action);
           queueState.add(stCopySim);
-          queueMoves.add(i);
-          queueNivel.add(1);
+
         }
         if (contMuertes < minContMuertes){
           // if (debug){
           //   System.out.println("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx")
           // }
           queueState.clear();
-          queueMoves.clear();
-          queueNivel.clear();
+
           minContMuertes = contMuertes;
+          stCopy.setMove(action);
           queueState.add(stCopySim);
-          queueMoves.add(i);
-          queueNivel.add(1);
+
         }
 
       }
@@ -319,4 +326,46 @@ public class Agent extends AbstractPlayer {
         }
 
     }
+}
+
+class Tuple {
+    private StateObservation state;
+    private double score;
+    private int level;
+    private double incScore;
+    private Types.ACTIONS moveInicial;
+    public Tuple (StateObservation so, Types.ACTIONS m, double s1, int l, double s2) {
+      this.state = so;
+      this.moveInicial = m;
+      this.score = s1;
+      this.level = l;
+      this.incScore  = s2;
+    }
+    public Tuple (Tuple t, Types.ACTIONS a ) {
+      this.state = t.getSo().copy();
+      this.state.advance(a);
+      this.moveInicial= t.getMove();
+      this.level = t.getLevel() + 1;
+      this.score = this.state.getGameScore()*(1/Math.pow(1.01,this.level));
+      //this.score = this.state.getGameScore();
+
+      this.incScore  = this.score - t.getScore();
+    }
+    public double getScore(){
+      return this.score;
+    }
+    public StateObservation getSo(){
+      return this.state;
+    }
+
+    public int getLevel(){
+      return this.level;
+    }
+    public Types.ACTIONS getMove(){
+      return this.moveInicial;
+    }
+    public void setMove(Types.ACTIONS a){
+      this.moveInicial = a;
+    }
+
 }
