@@ -97,19 +97,23 @@ public class Agent extends AbstractPlayer {
         LinkedList<StateObservation> queueState = new LinkedList<StateObservation>();
         LinkedList<Integer> queueMoves = new LinkedList<Integer>();
         LinkedList<Integer> queueNivel = new LinkedList<Integer>();
+        LinkedList<Double> queueScore = new LinkedList<Double>();
         queueState.add(stCopy);
         queueMoves.add(-1);
         queueNivel.add(0);
+        queueScore.add(Double.NEGATIVE_INFINITY);
         ArrayList<Types.ACTIONS> actions;
 
 
         int currentMove;
         int currentLevel;
+        double currentScore;
         double bestScore = Double.NEGATIVE_INFINITY;
         int bestMove=0;
         double scoreActualWithDescount;
+        double incrementoScore;
         //ExtraccionCaracteristicas.pintarTodo(stCopy);
-        System.out.println("#################### " + queueState.size());
+        //System.out.println("#################### " + queueState.size());
         novelty = new Boolean[grid.length*grid[0].length][20];
 
         while(remaining > 2*avgTimeTaken && remaining > remainingLimit && queueState.size() != 0)
@@ -118,7 +122,7 @@ public class Agent extends AbstractPlayer {
             ElapsedCpuTimer elapsedTimerIteration = new ElapsedCpuTimer();
             actions = stateObs.getAvailableActions();  // ¿El número de acciones puede cambiar?
             if (numIters == 0){
-              primerVistazo(queueState, queueMoves, queueNivel,  actions);
+              primerVistazo(queueState, queueMoves, queueNivel, queueScore,  actions);
             }
             index = randomGenerator.nextInt(actions.size());
             //System.out.println("----------------------"+actions.size());
@@ -129,6 +133,7 @@ public class Agent extends AbstractPlayer {
               imprimirMiPosicion(stCopy);
             currentMove = queueMoves.poll();
             currentLevel = queueNivel.poll();
+            currentScore = queueScore.poll();
             //Sacar a una clase search
             for (int i: orden){
               action = actions.get(i);
@@ -155,7 +160,16 @@ public class Agent extends AbstractPlayer {
                   queueState.add(stCopySim);
                   queueMoves.add(currentMove == -1 ? i : currentMove);
                   queueNivel.add(currentLevel +1);
-                  scoreActualWithDescount  = stCopySim.getGameScore()*(1/Math.pow(1.01,currentLevel));
+                  scoreActualWithDescount = stCopySim.getGameScore() - currentScore ;
+                  if (scoreActualWithDescount < 0 ){
+                    scoreActualWithDescount= currentScore  + scoreActualWithDescount*10;
+                  }
+                  else
+                  {
+                    scoreActualWithDescount  = (currentScore + scoreActualWithDescount)*(1/Math.pow(1.01,currentLevel));
+                  }
+                  queueScore.add(scoreActualWithDescount);
+
                   if (scoreActualWithDescount > bestScore){
                     bestScore = scoreActualWithDescount;
                     bestMove = currentMove == -1 ? i : currentMove;
@@ -188,7 +202,7 @@ public class Agent extends AbstractPlayer {
             avgTimeTaken  = acumTimeTaken/numIters;
             remaining = elapsedTimer.remainingTimeMillis();
         }
-        System.out.println("------------número nodos  " +nodos);
+        //System.out.println("------------número nodos  " +nodos);
         //System.out.println( ExtraccionCaracteristicas.comprobarNovedad(stCopy,novelty));
 
        // if (debug){
@@ -208,7 +222,7 @@ public class Agent extends AbstractPlayer {
     }
 
     private void primerVistazo(LinkedList<StateObservation> queueState , LinkedList<Integer> queueMoves,
-     LinkedList<Integer> queueNivel, ArrayList<Types.ACTIONS> actions){
+     LinkedList<Integer> queueNivel, LinkedList<Double> queueScore ,  ArrayList<Types.ACTIONS> actions){
 
       int minContMuertes = 10;
       int contMuertes;
@@ -218,6 +232,7 @@ public class Agent extends AbstractPlayer {
       Types.ACTIONS action;
       queueMoves.poll();
       queueNivel.poll();
+      queueScore.poll();
       for (int i: orden){
         contMuertes = 0;
         action = actions.get(i);
@@ -227,11 +242,12 @@ public class Agent extends AbstractPlayer {
           if(stCopySim.isGameOver())
             contMuertes++;
         }
-         System.out.println("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" +contMuertes);
+         //System.out.println("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" +contMuertes);
         if (contMuertes == minContMuertes){
           queueState.add(stCopySim);
           queueMoves.add(i);
           queueNivel.add(1);
+          queueScore.add(stCopySim.getGameScore());
         }
         if (contMuertes < minContMuertes){
           // if (debug){
@@ -240,10 +256,12 @@ public class Agent extends AbstractPlayer {
           queueState.clear();
           queueMoves.clear();
           queueNivel.clear();
+          queueScore.clear();
           minContMuertes = contMuertes;
           queueState.add(stCopySim);
           queueMoves.add(i);
           queueNivel.add(1);
+          queueScore.add(stCopySim.getGameScore());
         }
 
       }
