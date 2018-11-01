@@ -39,6 +39,9 @@ public class Agent extends AbstractPlayer {
     private boolean debug;
 
 
+    private double bestScore;
+    Types.ACTIONS bestMove;
+
     /**
      * Public constructor with state observation and time due.
      * @param so state observation of the current game.
@@ -108,26 +111,28 @@ public class Agent extends AbstractPlayer {
         int currentMove;
         int currentLevel;
         double currentScore;
-        double bestScore = Double.NEGATIVE_INFINITY;
-        Types.ACTIONS bestMove= stateObs.getAvailableActions().get(0);
+        bestScore = Double.NEGATIVE_INFINITY;
+        bestMove= stateObs.getAvailableActions().get(0);
         double scoreActualWithDescount;
         double incrementoScore;
         //ExtraccionCaracteristicas.pintarTodo(stCopy);
         //System.out.println("#################### " + queueState.size());
         novelty = new Boolean[grid.length*grid[0].length][20];
-
+        // System.out.println("============"+stateObs.getAvailableActions().size());
         while(remaining > 2*avgTimeTaken && remaining > remainingLimit && queueState.size() != 0)
         //while(bestMove<100)
         {
             ElapsedCpuTimer elapsedTimerIteration = new ElapsedCpuTimer();
             actions = stateObs.getAvailableActions();  // ¿El número de acciones puede cambiar?
+            shuffleArray(orden);
             if (numIters == 0){
               primerVistazo(queueState, actions);
             }
+            // System.out.println(queueState.size());
             index = randomGenerator.nextInt(actions.size());
             //System.out.println("----------------------"+actions.size());
             //if (!debug)
-              shuffleArray(orden);
+
             Tuple tupla = queueState.poll();
             // stCopy= queueState.poll();
             //stCopy = tupla.getSo();
@@ -160,6 +165,7 @@ public class Agent extends AbstractPlayer {
                   // System.out.println("Acción encolada ");
 
                   queueState.add(stCopySim);
+      // System.out.println(stCopySim.getSo().getGameScore()+" nuestro calculo -> "+stCopySim.getScore());
                   //scoreActualWithDescount  = stCopySim.getSo().getGameScore()*(1/Math.pow(1.01,currentLevel));
                   scoreActualWithDescount  = stCopySim.getScore();
                   if (scoreActualWithDescount > bestScore){
@@ -177,6 +183,10 @@ public class Agent extends AbstractPlayer {
                     System.out.println(stCopySim.getSo().getGameScore());
                   }
 
+              }
+              else if (stCopySim.getSo().getGameWinner() == Types.WINNER.PLAYER_WINS){
+                // System.out.println("hemos encontrado acción para ganar la partida " +stCopySim.getSo().getGameScore());
+                bestMove = stCopySim.getMove();
               }
 
             }
@@ -198,20 +208,34 @@ public class Agent extends AbstractPlayer {
         //System.out.println("------------número nodos  " +nodos);
         //System.out.println( ExtraccionCaracteristicas.comprobarNovedad(stCopy,novelty));
 
-       // if (debug){
-       //    try{
-       //      Thread.sleep(1000);
-       //    }
-       //    catch(InterruptedException e){
-       //        System.out.println("thread 2 interrupted");
-       //    }
-       //  }
+       if (debug){
+          try{
+            Thread.sleep(300);
+          }
+          catch(InterruptedException e){
+              System.out.println("thread 2 interrupted");
+          }
+        }
 
         return action;
     }
     private void imprimirMiPosicion(StateObservation s){
-
       System.out.println(s.getAvatarPosition().x/block_size + "   " +s.getAvatarPosition().y/block_size );
+      if (s.getAvatarPosition().x/block_size < 0){
+          debugPosicionExtranya(s);
+      }
+    }
+    private void debugPosicionExtranya(StateObservation s){
+      System.out.println("########################################3");
+      System.out.println("########################################3");
+      System.out.println(s.getAvatarPosition().x+ " <- x  " +s.getAvatarPosition().y + " <- y "+ block_size + "<- b_size" );
+      System.out.println("score " +s.getGameScore());
+
+      System.out.println("winer " +s.getGameWinner());
+      System.out.println("GameOver" +s.isGameOver());
+      System.out.println(" avatarResources" +s.getAvatarResources());
+      System.out.println("########################################3");
+      System.out.println("########################################3");
     }
 
     // private void primerVistazo(LinkedList<T<> queueState , LinkedList<Integer> queueMoves,
@@ -234,13 +258,33 @@ public class Agent extends AbstractPlayer {
           // stCopySim.advance(action);
           // if(stCopySim.isGameOver())
           stCopySim = new Tuple (stCopy, action);
-          if (stCopySim.getSo().isGameOver())
+          stCopySim.setMove(action);
+          if (stCopySim.getSo().isGameOver()){
             contMuertes++;
+          }
+          if (stCopySim.getSo().getGameWinner() == Types.WINNER.PLAYER_WINS)
+          {
+            stCopy.setMove(action);
+            bestMove = action;
+            queueState.add(stCopySim);
+            return;
+          }
         }
-         //System.out.println("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" +contMuertes);
+
+         // System.out.println("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" +contMuertes);
         if (contMuertes == minContMuertes){
           stCopy.setMove(action);
           queueState.add(stCopySim);
+  // System.out.println(stCopySim.getSo().getGameScore()+" nuestro calculo -> "+stCopySim.getScore());
+          if (stCopySim.getScore() > bestScore){
+            bestScore = stCopySim.getScore();
+            // bestMove = stCopySim.getMove() == -1 ? i : currentMove;
+            bestMove = stCopySim.getMove();
+            if (debug){
+              // System.out.println("Actualizando bestMove  " +bestMove);
+              // System.out.println("Actualizando bestScore  " +bestScore + "con accion "+ stCopySim.getMove());
+            }
+          }
 
         }
         if (contMuertes < minContMuertes){
@@ -252,8 +296,18 @@ public class Agent extends AbstractPlayer {
           minContMuertes = contMuertes;
           stCopy.setMove(action);
           queueState.add(stCopySim);
+// System.out.println(stCopySim.getSo().getGameScore()+" nuestro calculo -> "+stCopySim.getScore());
+
+          bestScore = stCopySim.getScore();
+            // bestMove = stCopySim.getMove() == -1 ? i : currentMove;
+          bestMove = stCopySim.getMove();
+          if (debug){
+              // System.out.println("Actualizando bestMove  " +bestMove);
+            // System.out.println("Actualizando bestScore  " +bestScore + "con accion "+ stCopySim.getMove());
+          }
 
         }
+
 
       }
     }
