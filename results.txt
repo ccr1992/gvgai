@@ -1,0 +1,474 @@
+Buildfile: /home/cristobal/Documentos/tfm/gvgai-803dc6b1aa0044548c455875926dc25390f11e3b/build.xml
+
+makedirectories:
+
+compile:
+     [echo] Compiling All sources ...
+    [javac] Compiling 37 source files to /home/cristobal/Documentos/tfm/gvgai-803dc6b1aa0044548c455875926dc25390f11e3b/classes
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+
+run:
+     [echo] Executing Test.java ...
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:68.0, timesteps:730
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:69.0, timesteps:660
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:75.0, timesteps:814
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:70.0, timesteps:794
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:62.0, timesteps:532
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:68.0, timesteps:1031
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:56.0, timesteps:670
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:62.0, timesteps:764
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:64.0, timesteps:983
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:68.0, timesteps:617
+     [java] Results in game examples/gridphysics/aliens.txt, 0.8 | 66.2
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:11.0, timesteps:388
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:11.0, timesteps:346
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:114.0, timesteps:334
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:10.0, timesteps:264
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:115.0, timesteps:472
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:7.0, timesteps:292
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:1.0, timesteps:52
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:8.0, timesteps:486
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:106.0, timesteps:532
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:17.0, timesteps:514
+     [java] Results in game examples/gridphysics/angelsdemons.txt, 0.0 | 40.0
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:1500
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:1500
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:1500
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:1500
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:1500
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:1500
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:1500
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:1500
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:1500
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:1500
+     [java] Results in game examples/gridphysics/assemblyline.txt, 0.0 | 0.0
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:202.0, timesteps:1000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:173.0, timesteps:499
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:162.0, timesteps:450
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:107.0, timesteps:524
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:70.0, timesteps:717
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:39.0, timesteps:264
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:214.0, timesteps:1000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:37.0, timesteps:265
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:126.0, timesteps:917
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:186.0, timesteps:947
+     [java] Results in game examples/gridphysics/avoidgeorge.txt, 0.2 | 131.6
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+     [java] Results in game examples/gridphysics/bait.txt, 0.0 | 0.0
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:103
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:120
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:116
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:21.0, timesteps:382
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:118
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:3.0, timesteps:217
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:26.0, timesteps:357
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:134
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:98
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:118
+     [java] Results in game examples/gridphysics/blacksmoke.txt, 0.0 | 5.0
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+     [java] Results in game examples/gridphysics/boloadventures.txt, 0.0 | 0.0
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:1000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:3.0, timesteps:1000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:1000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:1000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:1000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:1000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:1000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:3.0, timesteps:1000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:3.0, timesteps:1000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:3.0, timesteps:1000
+     [java] Results in game examples/gridphysics/bomber.txt, 0.0 | 1.2
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:25.0, timesteps:215
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:15.0, timesteps:97
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:9.0, timesteps:82
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:6.0, timesteps:123
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:25.0, timesteps:218
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:15.0, timesteps:153
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:15.0, timesteps:80
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:19.0, timesteps:77
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:25.0, timesteps:661
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:8.0, timesteps:29
+     [java] Results in game examples/gridphysics/boulderchase.txt, 0.0 | 16.2
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:3.0, timesteps:413
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:9.0, timesteps:686
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:18.0, timesteps:2000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:3.0, timesteps:257
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:3.0, timesteps:349
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:3.0, timesteps:217
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:3.0, timesteps:60
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:2.0, timesteps:105
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:3.0, timesteps:631
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:3.0, timesteps:203
+     [java] Results in game examples/gridphysics/boulderdash.txt, 0.0 | 5.0
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:29.0, timesteps:2000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:11.0, timesteps:2000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:11.0, timesteps:2000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:29.0, timesteps:2000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:11.0, timesteps:2000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:11.0, timesteps:2000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:11.0, timesteps:2000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:29.0, timesteps:2000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:11.0, timesteps:2000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:11.0, timesteps:2000
+     [java] Results in game examples/gridphysics/brainman.txt, 0.0 | 16.4
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:52.0, timesteps:1103
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:38.0, timesteps:524
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:60.0, timesteps:1139
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:32.0, timesteps:964
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:56.0, timesteps:2000
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:58.0, timesteps:269
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:26.0, timesteps:2000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:40.0, timesteps:2000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:62.0, timesteps:2000
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:24.0, timesteps:357
+     [java] Results in game examples/gridphysics/butterflies.txt, 0.5 | 44.8
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:3.0, timesteps:1500
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:2.0, timesteps:548
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:3.0, timesteps:1500
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:5.0, timesteps:1500
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:4.0, timesteps:1500
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:3.0, timesteps:1500
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:5.0, timesteps:1500
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:3.0, timesteps:1500
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:5.0, timesteps:1500
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:1.0, timesteps:1499
+     [java] Results in game examples/gridphysics/cakybaky.txt, 0.0 | 3.4
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:-1.0, timesteps:79
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:-1.0, timesteps:79
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:-1.0, timesteps:79
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:-1.0, timesteps:79
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:-1.0, timesteps:79
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:-1.0, timesteps:79
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:-1.0, timesteps:79
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:-1.0, timesteps:79
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:-1.0, timesteps:79
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:-1.0, timesteps:79
+     [java] Results in game examples/gridphysics/camelRace.txt, 0.0 | -1.0
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:3.0, timesteps:31
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:3.0, timesteps:40
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:2.0, timesteps:30
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:2.0, timesteps:30
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:3.0, timesteps:37
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:3.0, timesteps:31
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:3.0, timesteps:36
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:3.0, timesteps:33
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:3.0, timesteps:29
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:3.0, timesteps:33
+     [java] Results in game examples/gridphysics/catapults.txt, 0.0 | 2.8
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:1500
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:-10.0, timesteps:83
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:1500
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:1500
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:2.0, timesteps:1500
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:1500
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:1500
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:4.0, timesteps:1500
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:-10.0, timesteps:27
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:1500
+     [java] Results in game examples/gridphysics/chainreaction.txt, 0.0 | -1.4
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:2.0, timesteps:245
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:3.0, timesteps:2000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:5.0, timesteps:2000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:2.0, timesteps:136
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:1.0, timesteps:457
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:2.0, timesteps:577
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:2.0, timesteps:574
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:3.0, timesteps:691
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:3.0, timesteps:973
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:4.0, timesteps:1441
+     [java] Results in game examples/gridphysics/chase.txt, 0.0 | 2.7
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:31.0, timesteps:2000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:24.0, timesteps:2000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:31.0, timesteps:2000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:31.0, timesteps:2000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:31.0, timesteps:2000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:24.0, timesteps:2000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:31.0, timesteps:2000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:31.0, timesteps:2000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:31.0, timesteps:2000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:31.0, timesteps:2000
+     [java] Results in game examples/gridphysics/chipschallenge.txt, 0.0 | 29.6
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:1.0, timesteps:1500
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:2.0, timesteps:1500
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:1500
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:4.0, timesteps:1500
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:2.0, timesteps:1500
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:2.0, timesteps:1500
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:1.0, timesteps:1499
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:3.0, timesteps:1500
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:2.0, timesteps:1500
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:3.0, timesteps:1500
+     [java] Results in game examples/gridphysics/clusters.txt, 0.0 | 2.0
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:1500
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:1500
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:1500
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:1500
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:1500
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:1500
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:1500
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:1500
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:1500
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:1500
+     [java] Results in game examples/gridphysics/colourescape.txt, 0.0 | 0.0
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:5.0, timesteps:1707
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:1.0, timesteps:2000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:-4.0, timesteps:1205
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:-4.0, timesteps:1156
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:-6.0, timesteps:1089
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:2.0, timesteps:2000
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:7.0, timesteps:1609
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:11.0, timesteps:2000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:4.0, timesteps:2000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:2.0, timesteps:2000
+     [java] Results in game examples/gridphysics/chopper.txt, 0.2 | 1.8
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:8.0, timesteps:2000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:4.0, timesteps:2000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:4.0, timesteps:2000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:8.0, timesteps:2000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:4.0, timesteps:2000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:8.0, timesteps:2000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:8.0, timesteps:2000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:8.0, timesteps:2000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:8.0, timesteps:2000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:8.0, timesteps:2000
+     [java] Results in game examples/gridphysics/cookmepasta.txt, 0.0 | 6.8
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:4.0, timesteps:1900
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:4.0, timesteps:1900
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:14.0, timesteps:1900
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:2.0, timesteps:1900
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:14.0, timesteps:1900
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:12.0, timesteps:1900
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:4.0, timesteps:1900
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:14.0, timesteps:1900
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:2.0, timesteps:1900
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:4.0, timesteps:1900
+     [java] Results in game examples/gridphysics/cops.txt, 0.0 | 7.4
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:-1.0, timesteps:1704
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:-1.0, timesteps:87
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:-1.0, timesteps:1755
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:-1.0, timesteps:399
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:-1.0, timesteps:858
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:-1.0, timesteps:647
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:-1.0, timesteps:1236
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+     [java] Results in game examples/gridphysics/crossfire.txt, 0.0 | -0.7
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:5.0, timesteps:69
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:48.0, timesteps:2000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:47.0, timesteps:2000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:44.0, timesteps:2000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:47.0, timesteps:2000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:46.0, timesteps:2000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:46.0, timesteps:2000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:48.0, timesteps:2000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:19.0, timesteps:199
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:14.0, timesteps:139
+     [java] Results in game examples/gridphysics/defem.txt, 0.0 | 36.4
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:1.0, timesteps:1000
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:1.0, timesteps:1000
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:1.0, timesteps:1000
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:1.0, timesteps:1000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:-62.0, timesteps:707
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:-10.0, timesteps:997
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:-63.0, timesteps:803
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:-38.0, timesteps:783
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:-40.0, timesteps:891
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:1.0, timesteps:1000
+     [java] Results in game examples/gridphysics/defender.txt, 0.5 | -20.8
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:18.0, timesteps:1723
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:19.0, timesteps:2000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:20.0, timesteps:2000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:18.0, timesteps:2000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:15.0, timesteps:2000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:20.0, timesteps:2000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:38.0, timesteps:2000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:19.0, timesteps:2000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:15.0, timesteps:1971
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:20.0, timesteps:2000
+     [java] Results in game examples/gridphysics/digdug.txt, 0.0 | 20.2
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:6.0, timesteps:1350
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:5.0, timesteps:1328
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:16.0, timesteps:2000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:7.0, timesteps:944
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:6.0, timesteps:144
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:6.0, timesteps:274
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:2.0, timesteps:2000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:6.0, timesteps:1222
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:2.0, timesteps:2000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:2.0, timesteps:2000
+     [java] Results in game examples/gridphysics/dungeon.txt, 0.0 | 5.8
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:18.0, timesteps:1323
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:16.0, timesteps:1119
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:16.0, timesteps:1311
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:8.0, timesteps:717
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:21.0, timesteps:1500
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:111.0, timesteps:610
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:15.0, timesteps:687
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:11.0, timesteps:585
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:14.0, timesteps:705
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:9.0, timesteps:633
+     [java] Results in game examples/gridphysics/eggomania.txt, 0.2 | 23.9
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:483
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:661
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:717
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:1113
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:679
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:659
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:675
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:1673
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:861
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:733
+     [java] Results in game examples/gridphysics/enemycitadel.txt, 0.0 | 0.0
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:1000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:1000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:1000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:1000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:1000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:1000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:1000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:1000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:1000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:1000
+     [java] Results in game examples/gridphysics/escape.txt, 0.0 | 0.0
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:1.0, timesteps:1000
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:1.0, timesteps:1000
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:1.0, timesteps:1000
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:1.0, timesteps:1000
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:1.0, timesteps:1000
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:1.0, timesteps:1000
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:1.0, timesteps:1000
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:1.0, timesteps:1000
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:1.0, timesteps:1000
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:1.0, timesteps:1000
+     [java] Results in game examples/gridphysics/factorymanager.txt, 1.0 | 1.0
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:14.0, timesteps:2000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:13.0, timesteps:2000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:14.0, timesteps:2000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:13.0, timesteps:2000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:14.0, timesteps:2000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:12.0, timesteps:2000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:10.0, timesteps:2000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:13.0, timesteps:2000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:5.0, timesteps:2000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:14.0, timesteps:2000
+     [java] Results in game examples/gridphysics/firecaster.txt, 0.0 | 12.2
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:-14.0, timesteps:1500
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:-24.0, timesteps:1500
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:-26.0, timesteps:1500
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:-26.0, timesteps:1500
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:-12.0, timesteps:1500
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:-12.0, timesteps:1500
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:-26.0, timesteps:1500
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:-24.0, timesteps:1065
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:-26.0, timesteps:1500
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:-26.0, timesteps:1500
+     [java] Results in game examples/gridphysics/fireman.txt, 0.0 | -21.6
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:-3.0, timesteps:2000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:-3.0, timesteps:2000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:-1.0, timesteps:2000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:-1.0, timesteps:2000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:-2.0, timesteps:2000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:-2.0, timesteps:2000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:-1.0, timesteps:2000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:-2.0, timesteps:2000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+     [java] Results in game examples/gridphysics/firestorms.txt, 0.0 | -1.5
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:50.0, timesteps:1900
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:30.0, timesteps:1899
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:50.0, timesteps:1900
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:50.0, timesteps:1900
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:20.0, timesteps:1295
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:30.0, timesteps:1900
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:60.0, timesteps:1900
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:50.0, timesteps:1900
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:50.0, timesteps:1900
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:10.0, timesteps:590
+     [java] Results in game examples/gridphysics/freeway.txt, 0.7 | 40.0
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:797
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:1821
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:1999
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:1406
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:799
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:1009
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:1558
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:1023
+     [java] Results in game examples/gridphysics/frogs.txt, 0.0 | 0.0
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:4.0, timesteps:352
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:2.0, timesteps:51
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:2.0, timesteps:44
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:1.0, timesteps:82
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:4.0, timesteps:231
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:4.0, timesteps:172
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:2.0, timesteps:132
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:2.0, timesteps:92
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:2.0, timesteps:65
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:2.0, timesteps:38
+     [java] Results in game examples/gridphysics/gymkhana.txt, 0.1 | 2.5
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:510
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:1260
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:1560
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:1860
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+     [java] Results in game examples/gridphysics/hungrybirds.txt, 0.0 | 0.0
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:14.0, timesteps:500
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:14.0, timesteps:500
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:16.0, timesteps:500
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:14.0, timesteps:500
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:14.0, timesteps:500
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:14.0, timesteps:500
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:14.0, timesteps:500
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:14.0, timesteps:500
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:14.0, timesteps:500
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:14.0, timesteps:500
+     [java] Results in game examples/gridphysics/iceandfire.txt, 0.0 | 14.2
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:18.0, timesteps:1457
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:26.0, timesteps:521
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:34.0, timesteps:549
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:25.0, timesteps:1230
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:20.0, timesteps:829
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:30.0, timesteps:486
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:38.0, timesteps:520
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:29.0, timesteps:280
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:26.0, timesteps:929
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:10.0, timesteps:357
+     [java] Results in game examples/gridphysics/infection.txt, 1.0 | 25.6
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:1.0, timesteps:1000
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:1.0, timesteps:1000
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:10.0, timesteps:1000
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:10.0, timesteps:1000
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:20.0, timesteps:1000
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:10.0, timesteps:1000
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:10.0, timesteps:1000
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:1.0, timesteps:1000
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:10.0, timesteps:1000
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:1.0, timesteps:1000
+     [java] Results in game examples/gridphysics/intersection.txt, 1.0 | 7.4

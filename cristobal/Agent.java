@@ -107,11 +107,13 @@ public class Agent extends AbstractPlayer {
 
         int currentMove;
         int currentLevel;
+        double currentScore;
         double bestScore = Double.NEGATIVE_INFINITY;
         Types.ACTIONS bestMove= stateObs.getAvailableActions().get(0);
         double scoreActualWithDescount;
+        double incrementoScore;
         //ExtraccionCaracteristicas.pintarTodo(stCopy);
-        System.out.println("#################### " + queueState.size());
+        //System.out.println("#################### " + queueState.size());
         novelty = new Boolean[grid.length*grid[0].length][20];
 
         while(remaining > 2*avgTimeTaken && remaining > remainingLimit && queueState.size() != 0)
@@ -193,7 +195,7 @@ public class Agent extends AbstractPlayer {
             avgTimeTaken  = acumTimeTaken/numIters;
             remaining = elapsedTimer.remainingTimeMillis();
         }
-        System.out.println("------------número nodos  " +nodos);
+        //System.out.println("------------número nodos  " +nodos);
         //System.out.println( ExtraccionCaracteristicas.comprobarNovedad(stCopy,novelty));
 
        // if (debug){
@@ -235,7 +237,7 @@ public class Agent extends AbstractPlayer {
           if (stCopySim.getSo().isGameOver())
             contMuertes++;
         }
-         System.out.println("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" +contMuertes);
+         //System.out.println("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" +contMuertes);
         if (contMuertes == minContMuertes){
           stCopy.setMove(action);
           queueState.add(stCopySim);
@@ -341,12 +343,21 @@ class Tuple {
       this.level = l;
       this.incScore  = s2;
     }
+    // Constructor que recibe el estado anterior, y la accion a realizar.
+    // Copia y avanza el estado, calcula los nuevos parámetros
     public Tuple (Tuple t, Types.ACTIONS a ) {
       this.state = t.getSo().copy();
       this.state.advance(a);
       this.moveInicial= t.getMove();
       this.level = t.getLevel() + 1;
-      this.score = this.state.getGameScore()*(1/Math.pow(1.01,this.level));
+      //incremento de score
+      this.score = this.state.getGameScore() - t.getScore();
+      if (this.score < 0){
+        this.score= this.state.getGameScore()  + this.score*10; // penalizamos el incremento negativo
+      }
+      else {
+        this.score = this.state.getGameScore()*(1/Math.pow(1.01,this.level)); // factor de descuento en funcion de la profundidad
+      }
       //this.score = this.state.getGameScore();
 
       this.incScore  = this.score - t.getScore();
