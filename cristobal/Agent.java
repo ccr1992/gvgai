@@ -57,6 +57,8 @@ public class Agent extends AbstractPlayer {
         block_size = so.getBlockSize();
         orden = new int[so.getAvailableActions().size()];
         initializeOrden(orden);
+        
+        System.gc();
 
     }
 
