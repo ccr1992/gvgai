@@ -10,6 +10,8 @@ import core.player.AbstractPlayer;
 import ontology.Types;
 import tools.ElapsedCpuTimer;
 import controllers.singlePlayer.cristobal.ExtraccionCaracteristicas;
+import java.util.HashMap;
+import tools.Vector2d;
 
 /**
  * Created with IntelliJ IDEA.
@@ -19,7 +21,7 @@ import controllers.singlePlayer.cristobal.ExtraccionCaracteristicas;
  * This is a Java port from Tom Schaul's VGDL - https://github.com/schaul/py-vgdl
  */
 public class Agent extends AbstractPlayer {
-
+    int CONST_REWARD =5;
     /**
      * Random generator for the agent.
      */
@@ -37,10 +39,15 @@ public class Agent extends AbstractPlayer {
      */
     protected int block_size;
     private boolean debug;
-
+    private boolean win;
 
     private double bestScore;
     Types.ACTIONS bestMove;
+
+    //rewardShaping
+    HashMap<Integer, Boolean>  initObservationsIds =new HashMap<Integer, Boolean>();
+    int numInitObservationsIds;
+    int lastTipo;
 
     /**
      * Public constructor with state observation and time due.
@@ -57,9 +64,15 @@ public class Agent extends AbstractPlayer {
         block_size = so.getBlockSize();
         orden = new int[so.getAvailableActions().size()];
         initializeOrden(orden);
-        
         System.gc();
+        win =false;
 
+        initObservationsIds = initMovablePositions(so);
+        numInitObservationsIds = initObservationsIds.size();
+        ArrayList<Observation> obs [][] = so.getObservationGrid();
+        Vector2d pos = getAvatarGridPosition(so);
+        lastTipo = getAvatarItype(obs, pos);
+        //System.out.println("mitipo "+myType);
     }
 
 
@@ -74,19 +87,6 @@ public class Agent extends AbstractPlayer {
         if (debug){
           System.out.println("actuando");
         }
-        // ArrayList<Observation>[] npcPositions = stateObs.getNPCPositions();
-        // ArrayList<Observation>[] fixedPositions = stateObs.getImmovablePositions();
-        // ArrayList<Observation>[] movingPositions = stateObs.getMovablePositions();
-        // ArrayList<Observation>[] resourcesPositions = stateObs.getResourcesPositions();
-        // ArrayList<Observation>[] portalPositions = stateObs.getPortalsPositions();
-        // grid = stateObs.getObservationGrid();
-        //
-        // printDebug(npcPositions,"npc");
-        // printDebug(fixedPositions,"fix");
-        // printDebug(movingPositions,"mov");
-        // printDebug(resourcesPositions,"res");
-        // printDebug(portalPositions,"por");
-        // System.out.println();
 
         Types.ACTIONS action = null;
         StateObservation stCopy = stateObs.copy();
@@ -99,15 +99,14 @@ public class Agent extends AbstractPlayer {
         int remainingLimit = 5;
         int index;
         int nodos =0;
-        // LinkedList<StateObservation> queueState = new LinkedList<StateObservation>();
-        // LinkedList<Integer> queueMoves = new LinkedList<Integer>();
-        // LinkedList<Integer> queueNivel = new LinkedList<Integer>();
-        // queueState.add(stCopy);
-        // queueMoves.add(-1);
-        // queueNivel.add(0);
+
         LinkedList<Tuple> queueState = new LinkedList<Tuple>();
         queueState.add(new Tuple(stCopy,action,0,-1,0));
         ArrayList<Types.ACTIONS> actions;
+        //getResourcesPositions(stCopy);
+        //getMyAvatarResources(stCopy);
+
+
 
 
         int currentMove;
@@ -121,9 +120,11 @@ public class Agent extends AbstractPlayer {
         //System.out.println("#################### " + queueState.size());
         novelty = new Boolean[grid.length*grid[0].length][20];
         // System.out.println("============"+stateObs.getAvailableActions().size());
-        while(remaining > 2*avgTimeTaken && remaining > remainingLimit && queueState.size() != 0)
+        win =false;
+        while(remaining > 2*avgTimeTaken && remaining > remainingLimit && queueState.size() != 0 && !win)
         //while(bestMove<100)
         {
+
             ElapsedCpuTimer elapsedTimerIteration = new ElapsedCpuTimer();
             actions = stateObs.getAvailableActions();  // ¿El número de acciones puede cambiar?
             shuffleArray(orden);
@@ -170,7 +171,9 @@ public class Agent extends AbstractPlayer {
       // System.out.println(stCopySim.getSo().getGameScore()+" nuestro calculo -> "+stCopySim.getScore());
                   //scoreActualWithDescount  = stCopySim.getSo().getGameScore()*(1/Math.pow(1.01,currentLevel));
                   scoreActualWithDescount  = stCopySim.getScore();
-                  if (scoreActualWithDescount > bestScore){
+                  int rewardShaping =  objetosEliminadosCambioTipo(stCopySim.getSo());
+                  //System.out.println(rewardShaping+" reward" );
+                  if (scoreActualWithDescount +rewardShaping*CONST_REWARD > bestScore){
                     bestScore = scoreActualWithDescount;
                     // bestMove = stCopySim.getMove() == -1 ? i : currentMove;
                     bestMove = stCopySim.getMove();
@@ -189,6 +192,7 @@ public class Agent extends AbstractPlayer {
               else if (stCopySim.getSo().getGameWinner() == Types.WINNER.PLAYER_WINS){
                 // System.out.println("hemos encontrado acción para ganar la partida " +stCopySim.getSo().getGameScore());
                 bestMove = stCopySim.getMove();
+                win = true;
               }
 
             }
@@ -210,9 +214,10 @@ public class Agent extends AbstractPlayer {
         //System.out.println("------------número nodos  " +nodos);
         //System.out.println( ExtraccionCaracteristicas.comprobarNovedad(stCopy,novelty));
 
+       //if (true){
        if (debug){
           try{
-            Thread.sleep(300);
+            Thread.sleep(200);
           }
           catch(InterruptedException e){
               System.out.println("thread 2 interrupted");
@@ -246,13 +251,14 @@ public class Agent extends AbstractPlayer {
 
       int minContMuertes = 10;
       int contMuertes;
-      Tuple stCopySim = null;
+
       Tuple stCopy = queueState.poll();
 
       Types.ACTIONS action;
       // queueMoves.poll();
       // queueNivel.poll();
       for (int i: orden){
+        Tuple stCopySim = null;
         contMuertes = 0;
         action = actions.get(i);
         for (int cont=0 ; cont < 5 ; cont++){
@@ -266,16 +272,17 @@ public class Agent extends AbstractPlayer {
           }
           if (stCopySim.getSo().getGameWinner() == Types.WINNER.PLAYER_WINS)
           {
-            stCopy.setMove(action);
+
             bestMove = action;
             queueState.add(stCopySim);
+            win = true;
             return;
           }
         }
 
-         // System.out.println("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" +contMuertes);
+        // System.out.println("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" +contMuertes);
         if (contMuertes == minContMuertes){
-          stCopy.setMove(action);
+          stCopySim.setMove(action);
           queueState.add(stCopySim);
   // System.out.println(stCopySim.getSo().getGameScore()+" nuestro calculo -> "+stCopySim.getScore());
           if (stCopySim.getScore() > bestScore){
@@ -296,7 +303,7 @@ public class Agent extends AbstractPlayer {
           queueState.clear();
 
           minContMuertes = contMuertes;
-          stCopy.setMove(action);
+          stCopySim.setMove(action);
           queueState.add(stCopySim);
 // System.out.println(stCopySim.getSo().getGameScore()+" nuestro calculo -> "+stCopySim.getScore());
 
@@ -384,8 +391,95 @@ public class Agent extends AbstractPlayer {
         }
 
     }
-}
 
+    //print method
+    protected int objetosEliminadosCambioTipo(StateObservation so) {
+
+    int auxNum=0;
+    int numResourcesDesaparecidos = 0;
+    ArrayList<Observation>[] resources = so.getMovablePositions();
+    if (resources == null){
+      return 0;
+    }
+    for (int i = 0; i < resources.length; ++i){
+      for (Observation o : resources[i]){
+
+        if (initObservationsIds.get(o.obsID) != null && initObservationsIds.get(o.obsID) == true)
+          auxNum++;
+      }
+    }
+    if (auxNum < numInitObservationsIds){
+      numInitObservationsIds = auxNum;
+      numResourcesDesaparecidos = numInitObservationsIds- auxNum;
+    }
+
+    ArrayList<Observation> obs [][] = so.getObservationGrid();
+    Vector2d pos = getAvatarGridPosition(so);
+    int myTipo = getAvatarItype(obs, pos);
+    if (lastTipo != myTipo){
+      lastTipo = myTipo;
+      numResourcesDesaparecidos +=5;
+    }
+    return numResourcesDesaparecidos;
+  }
+  protected static HashMap<Integer, Boolean> initMovablePositions(StateObservation so) {
+  HashMap<Integer, Boolean> result = new HashMap<Integer, Boolean>();
+  ArrayList<Observation>[] resources = so.getMovablePositions();
+
+  if (resources == null){
+    return result;
+  }
+  for (int i = 0; i < resources.length; ++i){
+    for (Observation o : resources[i]){
+      result.put(o.obsID, true);
+    }
+  }
+
+
+  return result ;
+
+}
+  //print method
+  public static void getMyAvatarResources(StateObservation so) {
+    System.out.println("resources");
+    HashMap<Integer, Integer>  resources =so.getAvatarResources();
+    // System.out.println(so.getAvatarPosition().getSpriteCategory());
+    //movable llaves y cajas
+    //portals objetivos teletransportes y de donde salen los fantasmas del pacman(algo malo)
+    if (resources == null){
+      System.out.println("No hay resources");
+      return;
+    }
+    for (Integer key : resources.keySet()){
+      System.out.print("key "+ key);
+      System.out.print("value "+resources.get(key)+"\n");
+    }
+  }
+  //obtener el tipo del avatar
+  static int getAvatarItype(ArrayList<Observation>[][] grid, Vector2d pos) {
+    int posX = (int) pos.x;
+    int posY = (int) pos.y;
+
+    if (posX < 0 || posY < 0 || posX >= grid.length || posY >= grid[0].length) return 0;
+    ArrayList<Observation> obsPosAvatar = grid[posX][posY];
+    Observation auxObs;
+    int avatarCat = 0;
+
+    for (int k = 0; k < obsPosAvatar.size(); k++) {
+      auxObs = obsPosAvatar.get(k);
+      if (auxObs.category == avatarCat) return auxObs.itype;
+    }
+    return 0;
+  }
+  static Vector2d getAvatarGridPosition(StateObservation so) {
+    Vector2d v = new Vector2d();
+    int factor = so.getBlockSize();
+    v.x = ((int)so.getAvatarPosition().x) / factor;
+    v.y = ((int)so.getAvatarPosition().y) / factor;
+    return v;
+  }
+}
+//fin de obtener tipo avatar
 class Tuple {
     private StateObservation state;
     private double score;
@@ -407,7 +501,8 @@ class Tuple {
       this.moveInicial= t.getMove();
       this.level = t.getLevel() + 1;
       //incremento de score
-      this.score = this.state.getGameScore() - t.getScore();
+
+      this.score = this.calculateScoreWithResources(t.getScore());
       if (this.score < 0){
         this.score= this.state.getGameScore()  + this.score*10; // penalizamos el incremento negativo
       }
@@ -434,5 +529,11 @@ class Tuple {
     public void setMove(Types.ACTIONS a){
       this.moveInicial = a;
     }
+
+    public double calculateScoreWithResources(double scoreAnterior){
+      return this.state.getGameScore() - scoreAnterior;
+    }
+
+
 
 }
