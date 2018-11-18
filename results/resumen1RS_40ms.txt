@@ -1,0 +1,10 @@
+     [java] Results in game examples/gridphysics/aliens.txt, 1.0 | 58.08
+     [java] Results in game examples/gridphysics/boulderdash.txt, 0.08 | 9.68
+     [java] Results in game examples/gridphysics/butterflies.txt, 1.0 | 28.4
+     [java] Results in game examples/gridphysics/chase.txt, 0.2 | 4.36
+     [java] Results in game examples/gridphysics/frogs.txt, 0.72 | 0.72
+     [java] Results in game examples/gridphysics/missilecommand.txt, 0.92 | 9.6
+     [java] Results in game examples/gridphysics/portals.txt, 0.72 | 0.72
+     [java] Results in game examples/gridphysics/sokoban.txt, 0.16 | 1.04
+     [java] Results in game examples/gridphysics/survivezombies.txt, 0.52 | 3.28
+     [java] Results in game examples/gridphysics/zelda.txt, 0.32 | 7.04

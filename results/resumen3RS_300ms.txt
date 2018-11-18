@@ -1,0 +1,10 @@
+     [java] Results in game examples/gridphysics/bait.txt, 0.2 | 6.88
+     [java] Results in game examples/gridphysics/boloadventures.txt, 0.2 | 1.44
+     [java] Results in game examples/gridphysics/brainman.txt, 0.08 | 25.44
+     [java] Results in game examples/gridphysics/chipschallenge.txt, 0.16 | 16.16
+     [java] Results in game examples/gridphysics/modality.txt, 0.2 | 0.2
+     [java] Results in game examples/gridphysics/painter.txt, 0.8 | 204.24
+     [java] Results in game examples/gridphysics/realportals.txt, 0.0 | 1.04
+     [java] Results in game examples/gridphysics/realsokoban.txt, 0.0 | 1.2
+     [java] Results in game examples/gridphysics/thecitadel.txt, 0.04 | 1.8
+     [java] Results in game examples/gridphysics/zenpuzzle.txt, 0.24 | 27.04

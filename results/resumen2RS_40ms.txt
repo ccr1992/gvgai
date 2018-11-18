@@ -1,0 +1,10 @@
+     [java] Results in game examples/gridphysics/camelRace.txt, 0.12 | -0.68
+     [java] Results in game examples/gridphysics/digdug.txt, 0.0 | 12.84
+     [java] Results in game examples/gridphysics/firestorms.txt, 0.52 | 0.16
+     [java] Results in game examples/gridphysics/infection.txt, 1.0 | 18.16
+     [java] Results in game examples/gridphysics/firecaster.txt, 0.0 | 11.64
+     [java] Results in game examples/gridphysics/overload.txt, 0.6 | 19.36
+     [java] Results in game examples/gridphysics/pacman.txt, 0.0 | 21.4
+     [java] Results in game examples/gridphysics/seaquest.txt, 0.56 | 2357.64
+     [java] Results in game examples/gridphysics/whackamole.txt, 0.64 | 35.6
+     [java] Results in game examples/gridphysics/eggomania.txt, 0.64 | 72.32
