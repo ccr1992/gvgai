@@ -1,0 +1,4453 @@
+Buildfile: /home/cristobal/Documentos/tfm/gvgai-803dc6b1aa0044548c455875926dc25390f11e3b/build.xml
+
+makedirectories:
+
+compile:
+     [echo] Compiling All sources ...
+    [javac] Compiling 4 source files to /home/cristobal/Documentos/tfm/gvgai-803dc6b1aa0044548c455875926dc25390f11e3b/classes
+    [javac] Note: /home/cristobal/Documentos/tfm/gvgai-803dc6b1aa0044548c455875926dc25390f11e3b/src/controllers/singlePlayer/cristobal3-2/ExtraccionCaracteristicasv2.java uses unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+
+run:
+     [echo] Executing Test.java ...
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:1.0, timesteps:46
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 19
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 1400
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:1.0, timesteps:47
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 19
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 1408
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:1.0, timesteps:46
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 19
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 1392
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:1.0, timesteps:45
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 19
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 1412
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:1.0, timesteps:44
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 19
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 1416
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:1.0, timesteps:44
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 18
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 1432
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:1.0, timesteps:44
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 18
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 1412
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:1.0, timesteps:44
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 18
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 1424
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:1.0, timesteps:44
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 18
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 1396
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:1.0, timesteps:46
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 18
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 1424
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:1.0, timesteps:47
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 19
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 1412
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:1.0, timesteps:46
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 19
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 1368
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:1.0, timesteps:46
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 19
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 1336
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:1.0, timesteps:46
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 19
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 1388
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:1.0, timesteps:47
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 19
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 1376
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:1.0, timesteps:48
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 19
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 1092
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:1.0, timesteps:49
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 19
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 1088
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:1.0, timesteps:49
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 19
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 1080
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:1.0, timesteps:47
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 19
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 1084
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:1.0, timesteps:47
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 19
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 1084
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:1.0, timesteps:51
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 19
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 1228
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:1.0, timesteps:48
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 19
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 1224
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:1.0, timesteps:48
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 19
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 1224
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:1.0, timesteps:48
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 19
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 1220
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:1.0, timesteps:48
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 19
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 1224
+     [java] Results in game examples/gridphysics/camelRace.txt, 1.0 | 1.0
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:23.0, timesteps:375
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 1
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 2945
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:17.0, timesteps:1441
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 1
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 3055
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:19.0, timesteps:1991
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 1
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 3050
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:24.0, timesteps:1447
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 1
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 2915
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:18.0, timesteps:508
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 1
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 3065
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:13.0, timesteps:1047
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 1
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 3070
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:17.0, timesteps:1047
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 1
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 3080
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:15.0, timesteps:1563
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 1
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 3070
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:18.0, timesteps:2000
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 1
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 3125
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:15.0, timesteps:779
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 1
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 3075
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:25.0, timesteps:441
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 1
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 3230
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:25.0, timesteps:639
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 1
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 3260
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:33.0, timesteps:2000
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 1
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 3340
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:20.0, timesteps:174
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 1
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 3310
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:25.0, timesteps:935
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 1
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 3330
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:5.0, timesteps:2000
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 1
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 2240
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:6.0, timesteps:2000
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 1
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 2235
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:5.0, timesteps:398
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 1
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 2390
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:5.0, timesteps:536
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 1
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 1775
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:6.0, timesteps:2000
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 1
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 1975
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:24.0, timesteps:357
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 1
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 3990
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:12.0, timesteps:233
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 1
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 3290
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:2.0, timesteps:583
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 1
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 3655
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:25.0, timesteps:359
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 1
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 3890
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:29.0, timesteps:328
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 1
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 3780
+     [java] Results in game examples/gridphysics/digdug.txt, 0.0 | 17.04
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:1.0, timesteps:36
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 1
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 2660
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:1.0, timesteps:42
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 1
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 2728
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:1.0, timesteps:38
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 1
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 2592
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:1.0, timesteps:42
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 1
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 2704
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:1.0, timesteps:39
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 1
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 2384
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:1.0, timesteps:37
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 1
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 2260
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:1.0, timesteps:37
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 1
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 2080
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:1.0, timesteps:37
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 1
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 2108
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:1.0, timesteps:45
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 1
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 2244
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:1.0, timesteps:38
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 1
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 2176
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:1.0, timesteps:38
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 1
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 1684
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:1.0, timesteps:38
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 1
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 1832
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:1.0, timesteps:43
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 1
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 1620
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:1.0, timesteps:30
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 1
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 1424
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:1.0, timesteps:45
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 1
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 1460
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:1.0, timesteps:31
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 1
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 1204
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:1.0, timesteps:31
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 1
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 1312
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:1.0, timesteps:41
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 1
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 1336
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:1.0, timesteps:31
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 1
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 1224
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:1.0, timesteps:31
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 1
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 1280
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:1.0, timesteps:99
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 1
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 752
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:1.0, timesteps:109
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 1
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 732
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:1.0, timesteps:126
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 1
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 728
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:1.0, timesteps:99
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 1
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 736
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:-3.0, timesteps:94
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 1
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 720
+     [java] Results in game examples/gridphysics/firestorms.txt, 0.96 | 0.84
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:26.0, timesteps:244
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 7
+     [java] 	key 8
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 5895
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:28.0, timesteps:276
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 7
+     [java] 	key 8
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 5905
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:32.0, timesteps:247
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 7
+     [java] 	key 8
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 5830
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:22.0, timesteps:276
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 7
+     [java] 	key 8
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 5860
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:22.0, timesteps:216
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 7
+     [java] 	key 8
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 5780
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:30.0, timesteps:314
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 7
+     [java] 	key 8
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 6045
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:26.0, timesteps:173
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 7
+     [java] 	key 8
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 6355
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:28.0, timesteps:203
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 7
+     [java] 	key 8
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 6055
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:36.0, timesteps:288
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 7
+     [java] 	key 8
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 6340
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:18.0, timesteps:209
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 7
+     [java] 	key 8
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 6470
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:21.0, timesteps:217
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 7
+     [java] 	key 8
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 6580
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:29.0, timesteps:384
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 7
+     [java] 	key 8
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 6580
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:24.0, timesteps:160
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 7
+     [java] 	key 8
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 6615
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:18.0, timesteps:143
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 7
+     [java] 	key 8
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 6605
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:20.0, timesteps:146
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 7
+     [java] 	key 8
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 6630
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:6.0, timesteps:73
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 7
+     [java] 	key 8
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 7135
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:6.0, timesteps:73
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 7
+     [java] 	key 8
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 7090
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:12.0, timesteps:91
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 7
+     [java] 	key 8
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 7075
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:10.0, timesteps:73
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 7
+     [java] 	key 8
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 7080
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:13.0, timesteps:102
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 7
+     [java] 	key 8
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 7145
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:10.0, timesteps:157
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 7
+     [java] 	key 8
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 7030
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:4.0, timesteps:81
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 7
+     [java] 	key 8
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 7045
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:16.0, timesteps:187
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 7
+     [java] 	key 8
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 7020
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:8.0, timesteps:85
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 7
+     [java] 	key 8
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 7030
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:13.0, timesteps:127
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 7
+     [java] 	key 8
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 7040
+     [java] Results in game examples/gridphysics/infection.txt, 1.0 | 19.12
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:14.0, timesteps:2000
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 1
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 300
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:12.0, timesteps:2000
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 1
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 720
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:14.0, timesteps:2000
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 1
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 660
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:12.0, timesteps:2000
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 1
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 620
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:18.0, timesteps:2000
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 1
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 745
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:16.0, timesteps:2000
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 1
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 595
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:9.0, timesteps:160
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 1
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 740
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:12.0, timesteps:2000
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 1
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 455
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:14.0, timesteps:2000
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 1
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 825
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:16.0, timesteps:2000
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 1
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 685
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:6.0, timesteps:2000
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 1
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 690
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:6.0, timesteps:2000
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 1
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 680
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:6.0, timesteps:2000
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 1
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 405
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:6.0, timesteps:2000
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 1
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 700
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:6.0, timesteps:2000
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 1
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 700
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:28.0, timesteps:2000
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 1
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 3205
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:21.0, timesteps:2000
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 1
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 2540
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:27.0, timesteps:2000
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 1
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 3120
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:28.0, timesteps:2000
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 1
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 4120
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:28.0, timesteps:2000
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 1
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 2590
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:4.0, timesteps:2000
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 1
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 370
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:4.0, timesteps:2000
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 1
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 395
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:4.0, timesteps:2000
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 1
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 320
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:4.0, timesteps:2000
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 1
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 285
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:4.0, timesteps:2000
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 1
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 380
+     [java] Results in game examples/gridphysics/firecaster.txt, 0.0 | 12.76
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:13.0, timesteps:2000
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 1
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 395
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:13.0, timesteps:2000
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 1
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 575
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:19.0, timesteps:1219
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 1
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 480
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:15.0, timesteps:2000
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 1
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 520
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:19.0, timesteps:1255
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 1
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 585
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:17.0, timesteps:1788
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 1
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 420
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:15.0, timesteps:2000
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 1
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 380
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:19.0, timesteps:1621
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 1
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 445
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:15.0, timesteps:2000
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 1
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 370
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:19.0, timesteps:2000
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 1
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 430
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:41.0, timesteps:723
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 1
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 1760
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:26.0, timesteps:136
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 1
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 1515
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:11.0, timesteps:2000
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 1
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 865
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:39.0, timesteps:446
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 1
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 2215
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:11.0, timesteps:2000
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 1
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 1495
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:24.0, timesteps:374
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 1
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 1280
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:19.0, timesteps:456
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 1
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 655
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:26.0, timesteps:263
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 1
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 1075
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:27.0, timesteps:400
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 1
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 965
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:29.0, timesteps:2000
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 1
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 1870
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:11.0, timesteps:108
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 1
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 1385
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:14.0, timesteps:216
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 1
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 1460
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:18.0, timesteps:125
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 1
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 1070
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:15.0, timesteps:130
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 1
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 1110
+     [java] Result (1->win; 0->lose): Player0:1, Player0-Score:15.0, timesteps:112
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 1
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 1645
+     [java] Results in game examples/gridphysics/overload.txt, 0.64 | 19.6
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:48.0, timesteps:164
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 27
+     [java] 	key 28
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 52
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:37.0, timesteps:80
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 27
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 48
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:148.0, timesteps:358
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 27
+     [java] 	key 28
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 456
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:43.0, timesteps:116
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 27
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 60
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:90.0, timesteps:379
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 27
+     [java] 	key 28
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 240
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:49.0, timesteps:168
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 27
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 68
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:51.0, timesteps:410
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 27
+     [java] 	key 28
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 184
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:53.0, timesteps:136
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 27
+     [java] 	key 28
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 60
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:45.0, timesteps:366
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 27
+     [java] 	key 28
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 656
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:39.0, timesteps:76
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 27
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 52
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:96.0, timesteps:252
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 27
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 64
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:47.0, timesteps:124
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 27
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 64
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:99.0, timesteps:285
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 27
+     [java] 	key 28
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 1104
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:24.0, timesteps:72
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 27
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 60
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:38.0, timesteps:120
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 27
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 72
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:13.0, timesteps:84
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 27
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 48
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:53.0, timesteps:128
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 27
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 56
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:15.0, timesteps:80
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 27
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 76
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:80.0, timesteps:316
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 27
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 68
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:53.0, timesteps:116
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 27
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 72
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:14.0, timesteps:64
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 27
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 60
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:44.0, timesteps:152
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 27
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 72
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:30.0, timesteps:72
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 27
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 52
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:15.0, timesteps:100
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 27
+     [java] 	key 28
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 56
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:81.0, timesteps:331
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 27
+     [java] 	key 28
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 1000
+     [java] Results in game examples/gridphysics/pacman.txt, 0.0 | 52.2
+     [java] Result (1->win; 0->lose): Player0:0, Player0-Score:24.0, timesteps:442
+     [java] Tipos del avatar principal
+     [java] 	key 0
+     [java] 	key 1
+     [java] rewardsSubjetivos
+     [java] No se han encotrado rewardsSubjetivos en este juego
+     [java] Juego con muerte false
+     [java] portales
+     [java] No se han encotrado portales en este juego
+     [java] resources
+     [java] No se han encotrado resources en este juego
+     [java] NPC
+     [java] No se han encotrado NPCs en este juego
+     [java] mobiles
+     [java] No se han encotrado objetos mobiles en este juego
+     [java] inmobiles
+     [java] No se han encotrado objetos inmobiles en este juego
+     [java] fromAvatar
+     [java] No se han encotrado objetos fromAvatar en este juego
+     [java] número de rewards distintos en el juego
+     [java] 0
+     [java] número de tipos de sprites diferentes en el juego
+     [java] 0
+     [java] finaliza exploración 0.0 %
+     [java] máximo número de nodos 10665
